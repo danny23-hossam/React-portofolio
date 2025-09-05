@@ -1,0 +1,30 @@
+.text,.title{
+    color: white;
+}
+
+.container{
+    
+  display: flex;
+  align-items: center;   /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  position: relative; 
+  transition: opacity 1s ease-in-out;
+  
+}
+.container:hover .pic{
+     filter: blur(2px) brightness(70%);
+}
+
+
+
+.code{
+    position:absolute;
+    z-index: 2; 
+  filter: none; 
+  color: wheat;
+  opacity: 0;
+
+}
+.container:hover .code {
+  opacity: 1;
+}

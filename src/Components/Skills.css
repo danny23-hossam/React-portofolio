@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+}
+
+.p3{
+    color: wheat;
+}
+.outdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+
+    margin-top: 40px;
+    gap: 30px;
+}
+.rowi{
+    margin-top: 40px;
+}
+.card{
+    height: 500px;
+}
+.h5{
+    position: relative;
+    left: 28%;
+    color: white!important;
+}
+.bar1{
+    width: 90%;
+    background-color: rgb(235, 184, 89)!important;
+}
+.bar2{
+    width:80% ;
+    background-color: rgb(235, 184, 89)!important;
+}
+.bar3{
+    width: 75%;
+    background-color: rgb(235, 184, 89)!important;
+}
+.bar4{
+     width: 70%;
+    background-color: rgb(235, 184, 89)!important;
+}
+
+.card{
+    background-color: #353535!important;
+    transition: transform 1s ease-in-out;
+  
+}
+label{
+    color: white;
+}
+.card:hover{
+    transform: scale(1.03);
+}

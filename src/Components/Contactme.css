@@ -1,0 +1,42 @@
+.form{
+    position: relative;
+    top: 0px;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 206, 206);
+    color: black;
+    width: 33%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
+    
+}
+.h22{
+    position: relative;
+    left: 25%;
+}
+.button2{
+    width: 350px;
+    position: relative;
+    left: 15%;
+    background-color:#343a40 ;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.form:hover{
+    animation: rotating 2s linear infinite;
+}
+.label{
+    color: black;
+}
+
+@keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(2deg);
+    }
+    
+}
